@@ -1,0 +1,33 @@
+<Task type="RT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
+  <Point type="Start">
+    <Waypoint name="015Bagrenas" id="0" comment="" altitude="97.0">
+      <Location longitude="23.9986167" latitude="54.6511167"/>
+    </Waypoint>
+    <ObservationZone type="Line" length="20000.0"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="202Paseimeniai" id="0" comment="" altitude="100.0">
+      <Location longitude="23.0733333" latitude="54.545"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="500.0"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="347Zvirgzdaicia" id="0" comment="" altitude="46.0">
+      <Location longitude="23.0322167" latitude="54.7941667"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="500.0"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="006Alytus" id="0" comment="" altitude="87.0">
+      <Location longitude="24.0583333" latitude="54.41445"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="500.0"/>
+  </Point>
+  <Point type="Finish">
+    <Waypoint name="214Pociunai" id="0" comment="" altitude="60.0">
+      <Location longitude="24.0577833" latitude="54.65305"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="5000.0"/>
+  </Point>
+</Task>
+
