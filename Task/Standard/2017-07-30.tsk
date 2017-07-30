@@ -1,0 +1,33 @@
+<Task type="RT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
+  <Point type="Start">
+    <Waypoint name="216Prienai" id="0" comment="" altitude="52.0">
+      <Location longitude="23.9516667" latitude="54.6352833"/>
+    </Waypoint>
+    <ObservationZone type="Line" length="20000.0"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="020Bartninkai" id="0" comment="" altitude="107.0">
+      <Location longitude="23.025" latitude="54.5016667"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="500.0"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="074Goniadz" id="0" comment="" altitude="148.0">
+      <Location longitude="22.75055" latitude="53.4816667"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="500.0"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="268Start 3" id="0" comment="" altitude="110.0">
+      <Location longitude="24.1741667" latitude="54.59945"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="500.0"/>
+  </Point>
+  <Point type="Finish">
+    <Waypoint name="214Pociunai" id="0" comment="" altitude="60.0">
+      <Location longitude="24.0577833" latitude="54.65305"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="5000.0"/>
+  </Point>
+</Task>
+

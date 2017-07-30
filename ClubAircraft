@@ -1,39 +1,39 @@
 ID,CALL,CN,TYPE
-,,CF,DG 300
-,,CE,DG 300
-,,BC,Jantar Std.
-,,KM,Jantar Std. 3
-,,JM,Jantar Std.
-,,BZ,szd-48-3M
-,,BI,szd-48-3M
-,,A1,Std. Cirrus
-,,T1,Libelle
-,,JU,Jantar Std.
-,,CG,Jantar Std. 2
-,,AX,LS 4
-,,SL,Std. Libelle
-,,1K,Std. Libelle
-,,ELY,LS 1 f
+06D00081,S5-3093,CF,DG 300
+06D00087,S5-3055,CE,DG 300
+06DDDD95,LY-RID,BC,Jantar Std.
+06DD5244,SP-3448,KM,Jantar Std. 3
+06DDDD8E,LY-VJM,JM,Jantar Std.
+06DDEE77,SP-3333,BZ,szd-48-3M
+06DDEE58,SP-3335,BI,szd-48-3M
+06DDACF7,SE-UXA,A1,Std. Cirrus
+06DD8424,F-CGVS,T1,Libelle
+06DDBFEB,LY-GJU,JU,Jantar Std.
+06DDEFEA,LY-GCG,CG,Jantar Std. 2
+06DDAD8C,,AX,LS 4
+06DF0ED4,SL,SL,Std. Libelle
+06DD85CA,1K,1K,Std. Libelle
+06DD858D,D-2771,ELY,LS 1 f
 ,,AG,std. cirrus
-,,MN,LS 4
-,,96,Std. Cirrus
-,,XC,Std. Cirrus
-,,LY,Std. Cirrus
-,,GL,Std. Cirrus
-,,CX,Std. Cirrus
-,,DM,Std. Cirrus
+064B4BD2,HB-1835,MN,LS 4
+06DD978E,D4744,96,Std. Cirrus
+06DDBBB1,,XC,Std. Cirrus
+06DD8553,OK-9458,LY,Std. Cirrus
+06DDBC3B,OM-7262,GL,Std. Cirrus
+06DDBBB2,,CX,Std. Cirrus
+DD8CEA,G-RIFO,DM,Std. Cirrus
 ,,EKP,DG 101 G Elan
 ,,M6,LS 4
-,,11,Libelle
+06DDEF1B,11,11,Libelle
 ,,RSM,Std. Cirrus
-,,TJ,LS 1 f
+06DDD866,OY-TJX,TJ,LS 1 f
 ,,CK,Speed Astir II b
-,,M3,Hornet
-,,PW,LS 1 f
-,,HE,Std. Cirrus B
-,,MZ,Jantar Std.
+06DDB1A6,M3,M3,Hornet
+06DF0E1E,OY-XPW,PW,LS 1 f
+06485140,PH-1550,HE,Std. Cirrus B
+06DDDD96,LY-MMZ,MZ,Jantar Std.
 ,,GW,Std. Cirrus
-,,H1,Hornet
-,,TH,Std. Cirrus
-,,J1,Jantar Std. 3
-,,L,Jantar Std. 3
+06DDF00F,F-CPOL,H1,Hornet
+06DDDB11,OY-XTH,TH,Std. Cirrus
+06DDEEE1,F-COUL,J1,Jantar Std. 3
+06DDE21C,LY-GCO,L,Jantar Std. 3

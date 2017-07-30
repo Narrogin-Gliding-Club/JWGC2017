@@ -1,0 +1,33 @@
+<Task type="RT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
+  <Point type="Start">
+    <Waypoint name="028Birstonas" id="0" comment="" altitude="50.0">
+      <Location longitude="24.0347167" latitude="54.6027833"/>
+    </Waypoint>
+    <ObservationZone type="Line" length="20000.0"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="182Olecko" id="0" comment="" altitude="161.0">
+      <Location longitude="22.5072167" latitude="54.0377833"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="500.0"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="152Liskiava" id="0" comment="" altitude="110.0">
+      <Location longitude="24.05695" latitude="54.08055"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="500.0"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="268Start 3" id="0" comment="" altitude="110.0">
+      <Location longitude="24.1741667" latitude="54.59945"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="500.0"/>
+  </Point>
+  <Point type="Finish">
+    <Waypoint name="214Pociunai" id="0" comment="" altitude="60.0">
+      <Location longitude="24.0577833" latitude="54.65305"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="5000.0"/>
+  </Point>
+</Task>
+
