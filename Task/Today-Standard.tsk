@@ -1,0 +1,32 @@
+<Task fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_requires_arm="0" aat_min_time="10800" type="RT">
+	<Point type="Start">
+		<Waypoint altitude="50" comment="Turn Point" id="28" name="028Birstonas">
+			<Location latitude="54.6028" longitude="24.0347"/>
+		</Waypoint>
+		<ObservationZone length="10000" type="Line"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="160" comment="Turn Point" id="288" name="288Sventezeris">
+			<Location latitude="54.2411" longitude="23.6442"/>
+		</Waypoint>
+		<ObservationZone radius="20000" type="Cylinder"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="130" comment="Turn Point" id="156" name="156Madziunai">
+			<Location latitude="54.4361" longitude="24.9797"/>
+		</Waypoint>
+		<ObservationZone radius="20000" type="Cylinder"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="97" comment="Turn Point" id="219" name="219Punia">
+			<Location latitude="54.5106" longitude="24.1011"/>
+		</Waypoint>
+		<ObservationZone radius="5000" type="Cylinder"/>
+	</Point>
+	<Point type="Finish">
+		<Waypoint altitude="60" comment="Airfeld" id="214" name="214Pociunai">
+			<Location latitude="54.6531" longitude="24.0578"/>
+		</Waypoint>
+		<ObservationZone radius="5000" type="Cylinder"/>
+	</Point>
+</Task>
