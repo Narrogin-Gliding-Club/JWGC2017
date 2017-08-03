@@ -9,7 +9,7 @@
 		<Waypoint altitude="110" comment="Turn Point" id="165" name="165Merkine">
 			<Location latitude="54.1614" longitude="24.1836"/>
 		</Waypoint>
-		<ObservationZone radius="15000" type="Cylinder"/>
+		<ObservationZone radius="20000" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
 		<Waypoint altitude="130" comment="Turn Point" id="156" name="156Madziunai">
