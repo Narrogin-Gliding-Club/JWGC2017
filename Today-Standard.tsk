@@ -1,23 +1,23 @@
-<Task fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_requires_arm="0" aat_min_time="10800" type="RT">
+<Task fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_requires_arm="1" aat_min_time="7200" type="AAT">
 	<Point type="Start">
 		<Waypoint altitude="97" comment="Turn Point" id="15" name="015Bagrenas">
 			<Location latitude="54.6511" longitude="23.9986"/>
 		</Waypoint>
 		<ObservationZone length="10000" type="Line"/>
 	</Point>
-	<Point type="Turn">
+	<Point type="Area">
 		<Waypoint altitude="160" comment="Turn Point" id="288" name="288Sventezeris">
 			<Location latitude="54.2411" longitude="23.6442"/>
 		</Waypoint>
 		<ObservationZone radius="20000" type="Cylinder"/>
 	</Point>
-	<Point type="Turn">
+	<Point type="Area">
 		<Waypoint altitude="154" comment="Turn Point" id="237" name="237Rudiskes">
 			<Location latitude="54.5211" longitude="24.8339"/>
 		</Waypoint>
 		<ObservationZone radius="20000" type="Cylinder"/>
 	</Point>
-	<Point type="Turn">
+	<Point type="Area">
 		<Waypoint altitude="65" comment="Start Point" id="274" name="274Start 9">
 			<Location latitude="54.5772" longitude="24.1139"/>
 		</Waypoint>
