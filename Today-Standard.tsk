@@ -1,29 +1,29 @@
-<Task fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_requires_arm="1" aat_min_time="10800" type="AAT">
+<Task fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_requires_arm="0" aat_min_time="10800" type="RT">
 	<Point type="Start">
-		<Waypoint altitude="97" comment="Turn Point" id="15" name="015Bagrenas">
-			<Location latitude="54.6511" longitude="23.9986"/>
+		<Waypoint altitude="52" comment="Start Point" id="216" name="216Prienai">
+			<Location latitude="54.6353" longitude="23.9517"/>
 		</Waypoint>
 		<ObservationZone length="10000" type="Line"/>
 	</Point>
-	<Point type="Area">
-		<Waypoint altitude="100" comment="Turn Point" id="202" name="202Paseimeniai">
-			<Location latitude="54.545" longitude="23.0733"/>
+	<Point type="Turn">
+		<Waypoint altitude="161" comment="Turn Point" id="182" name="182Olecko">
+			<Location latitude="54.0378" longitude="22.5072"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
-	<Point type="Area">
-		<Waypoint altitude="116" comment="Turn Point" id="319" name="319Veisejai">
-			<Location latitude="54.1011" longitude="23.6939"/>
+	<Point type="Turn">
+		<Waypoint altitude="69" comment="Turn Point" id="160" name="160Marijampole">
+			<Location latitude="54.5553" longitude="23.3447"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
-	<Point type="Area">
-		<Waypoint altitude="130" comment="Turn Point" id="156" name="156Madziunai">
-			<Location latitude="54.4361" longitude="24.9797"/>
+	<Point type="Turn">
+		<Waypoint altitude="147" comment="Turn Point" id="345" name="345Zeronys">
+			<Location latitude="54.4786" longitude="24.8406"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
-	<Point type="Area">
+	<Point type="Turn">
 		<Waypoint altitude="110" comment="Start Point" id="268" name="268Start 3">
 			<Location latitude="54.5995" longitude="24.1742"/>
 		</Waypoint>

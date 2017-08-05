@@ -6,20 +6,20 @@
 		<ObservationZone length="10000" type="Line"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="116" comment="Turn Point" id="255" name="255Sestokai">
-			<Location latitude="54.36" longitude="23.4431"/>
+		<Waypoint altitude="150" comment="Turn Point" id="196" name="196Paneriai">
+			<Location latitude="54.6306" longitude="25.1767"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="50" comment="Turn Point" id="208" name="208Pilviskiai">
-			<Location latitude="54.7208" longitude="23.2211"/>
+		<Waypoint altitude="116" comment="Turn Point" id="319" name="319Veisejai">
+			<Location latitude="54.1011" longitude="23.6939"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="139" comment="Turn Point" id="162" name="162Matuizos g/p">
-			<Location latitude="54.2706" longitude="24.682"/>
+		<Waypoint altitude="133" comment="Turn Point" id="297" name="297Tiltai">
+			<Location latitude="54.4122" longitude="24.8086"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
