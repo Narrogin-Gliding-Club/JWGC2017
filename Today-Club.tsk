@@ -1,4 +1,4 @@
-<Task fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_requires_arm="1" aat_min_time="7200" type="AAT">
+<Task fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_requires_arm="1" aat_min_time="5400" type="AAT">
 	<Point type="Start">
 		<Waypoint altitude="97" comment="Turn Point" id="15" name="015Bagrenas">
 			<Location latitude="54.6511" longitude="23.9986"/>
