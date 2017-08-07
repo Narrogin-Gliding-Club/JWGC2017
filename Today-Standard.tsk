@@ -6,20 +6,20 @@
 		<ObservationZone length="10000" type="Line"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="157" comment="Turn Point" id="222" name="222Radiske">
-			<Location latitude="54.2947" longitude="23.2575"/>
+		<Waypoint altitude="126" comment="Turn Point" id="158" name="158Malowiste">
+			<Location latitude="53.9283" longitude="23.2181"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="50" comment="Turn Point" id="208" name="208Pilviskiai">
-			<Location latitude="54.7208" longitude="23.2211"/>
+		<Waypoint altitude="165" comment="Turn Point" id="33" name="033Bobrowisko">
+			<Location latitude="54.177" longitude="23.112"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="133" comment="Turn Point" id="334" name="334Wigry">
-			<Location latitude="54.0689" longitude="23.0911"/>
+		<Waypoint altitude="133" comment="Turn Point" id="297" name="297Tiltai">
+			<Location latitude="54.4122" longitude="24.8086"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>

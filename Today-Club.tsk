@@ -6,20 +6,14 @@
 		<ObservationZone length="10000" type="Line"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="69" comment="Turn Point" id="160" name="160Marijampole">
-			<Location latitude="54.5553" longitude="23.3447"/>
+		<Waypoint altitude="200" comment="Turn Point" id="19" name="019Bartna Gora">
+			<Location latitude="54.1456" longitude="22.7239"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="60" comment="Turn Point" id="154" name="154Luksiai">
-			<Location latitude="54.9497" longitude="23.1683"/>
-		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="165" comment="Turn Point" id="33" name="033Bobrowisko">
-			<Location latitude="54.177" longitude="23.112"/>
+		<Waypoint altitude="130" comment="Turn Point" id="32" name="032Bobriskes">
+			<Location latitude="54.3317" longitude="24.4958"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
