@@ -1,25 +1,19 @@
 <Task fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_requires_arm="0" aat_min_time="10800" type="RT">
 	<Point type="Start">
-		<Waypoint altitude="65" comment="Start Point" id="274" name="274Start 9">
-			<Location latitude="54.5772" longitude="24.1139"/>
+		<Waypoint altitude="52" comment="Start Point" id="216" name="216Prienai">
+			<Location latitude="54.6353" longitude="23.9517"/>
 		</Waypoint>
 		<ObservationZone length="10000" type="Line"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="126" comment="Turn Point" id="158" name="158Malowiste">
-			<Location latitude="53.9283" longitude="23.2181"/>
+		<Waypoint altitude="132" comment="Turn Point" id="16" name="016Balamutowo">
+			<Location latitude="53.8964" longitude="22.2464"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="165" comment="Turn Point" id="33" name="033Bobrowisko">
-			<Location latitude="54.177" longitude="23.112"/>
-		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="133" comment="Turn Point" id="297" name="297Tiltai">
-			<Location latitude="54.4122" longitude="24.8086"/>
+		<Waypoint altitude="139" comment="Turn Point" id="162" name="162Matuizos g/p">
+			<Location latitude="54.2706" longitude="24.682"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>

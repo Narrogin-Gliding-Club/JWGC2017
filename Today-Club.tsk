@@ -1,19 +1,19 @@
 <Task fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_requires_arm="0" aat_min_time="10800" type="RT">
 	<Point type="Start">
-		<Waypoint altitude="97" comment="Turn Point" id="15" name="015Bagrenas">
-			<Location latitude="54.6511" longitude="23.9986"/>
+		<Waypoint altitude="65" comment="Start Point" id="274" name="274Start 9">
+			<Location latitude="54.5772" longitude="24.1139"/>
 		</Waypoint>
 		<ObservationZone length="10000" type="Line"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="200" comment="Turn Point" id="19" name="019Bartna Gora">
-			<Location latitude="54.1456" longitude="22.7239"/>
+		<Waypoint altitude="129" comment="Turn Point" id="180" name="180Nowinka">
+			<Location latitude="53.9361" longitude="22.9786"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="130" comment="Turn Point" id="32" name="032Bobriskes">
-			<Location latitude="54.3317" longitude="24.4958"/>
+		<Waypoint altitude="144" comment="Airfeld" id="193" name="193Paluknys">
+			<Location latitude="54.4761" longitude="24.9922"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
