@@ -24,8 +24,8 @@
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="110" comment="Start Point" id="268" name="268Start 3">
-			<Location latitude="54.5995" longitude="24.1742"/>
+		<Waypoint altitude="83" comment="Start Point" id="270" name="270Start 5">
+			<Location latitude="54.7231" longitude="23.9525"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
