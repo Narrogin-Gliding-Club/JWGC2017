@@ -1,7 +1,7 @@
 <Task fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_requires_arm="0" aat_min_time="10800" type="RT">
 	<Point type="Start">
-		<Waypoint altitude="65" comment="Start Point" id="274" name="274Start 9">
-			<Location latitude="54.5772" longitude="24.1139"/>
+		<Waypoint altitude="100" comment="Start Point" id="266" name="266Start 10">
+			<Location latitude="54.6795" longitude="24.1956"/>
 		</Waypoint>
 		<ObservationZone length="10000" type="Line"/>
 	</Point>
