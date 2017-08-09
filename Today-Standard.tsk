@@ -6,14 +6,20 @@
 		<ObservationZone length="10000" type="Line"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="132" comment="Turn Point" id="16" name="016Balamutowo">
-			<Location latitude="53.8964" longitude="22.2464"/>
+		<Waypoint altitude="144" comment="Airfeld" id="193" name="193Paluknys">
+			<Location latitude="54.4761" longitude="24.9922"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="139" comment="Turn Point" id="162" name="162Matuizos g/p">
-			<Location latitude="54.2706" longitude="24.682"/>
+		<Waypoint altitude="149" comment="Turn Point" id="320" name="320Verbiskes">
+			<Location latitude="55.3075" longitude="25.465"/>
+		</Waypoint>
+		<ObservationZone radius="500" type="Cylinder"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="149" comment="Turn Point" id="110" name="110Karaziskes">
+			<Location latitude="54.5753" longitude="24.8486"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>

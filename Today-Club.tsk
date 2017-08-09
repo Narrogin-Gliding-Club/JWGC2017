@@ -6,14 +6,20 @@
 		<ObservationZone length="10000" type="Line"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="129" comment="Turn Point" id="180" name="180Nowinka">
-			<Location latitude="53.9361" longitude="22.9786"/>
+		<Waypoint altitude="133" comment="Turn Point" id="297" name="297Tiltai">
+			<Location latitude="54.4122" longitude="24.8086"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="144" comment="Airfeld" id="193" name="193Paluknys">
-			<Location latitude="54.4761" longitude="24.9922"/>
+		<Waypoint altitude="137" comment="Turn Point" id="22" name="022Bekupe">
+			<Location latitude="55.1114" longitude="25.2125"/>
+		</Waypoint>
+		<ObservationZone radius="500" type="Cylinder"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="130" comment="Turn Point" id="156" name="156Madziunai">
+			<Location latitude="54.4361" longitude="24.9797"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
