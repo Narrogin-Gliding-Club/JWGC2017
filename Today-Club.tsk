@@ -1,33 +1,27 @@
-<Task fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_requires_arm="0" aat_min_time="10800" type="RT">
+<Task fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_requires_arm="1" aat_min_time="7200" type="AAT">
 	<Point type="Start">
-		<Waypoint altitude="100" comment="Start Point" id="266" name="266Start 10">
-			<Location latitude="54.6795" longitude="24.1956"/>
+		<Waypoint altitude="65" comment="Start Point" id="274" name="274Start 9">
+			<Location latitude="54.5772" longitude="24.1139"/>
 		</Waypoint>
 		<ObservationZone length="10000" type="Line"/>
 	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="133" comment="Turn Point" id="297" name="297Tiltai">
-			<Location latitude="54.4122" longitude="24.8086"/>
+	<Point type="Area">
+		<Waypoint altitude="110" comment="Turn Point" id="165" name="165Merkine">
+			<Location latitude="54.1614" longitude="24.1836"/>
 		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
+		<ObservationZone radius="20000" type="Cylinder"/>
 	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="137" comment="Turn Point" id="22" name="022Bekupe">
-			<Location latitude="55.1114" longitude="25.2125"/>
+	<Point type="Area">
+		<Waypoint altitude="144" comment="Airfeld" id="193" name="193Paluknys">
+			<Location latitude="54.4761" longitude="24.9922"/>
 		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
+		<ObservationZone radius="20000" type="Cylinder"/>
 	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="130" comment="Turn Point" id="156" name="156Madziunai">
-			<Location latitude="54.4361" longitude="24.9797"/>
+	<Point type="Area">
+		<Waypoint altitude="110" comment="Start Point" id="268" name="268Start 3">
+			<Location latitude="54.5995" longitude="24.1742"/>
 		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="83" comment="Start Point" id="270" name="270Start 5">
-			<Location latitude="54.7231" longitude="23.9525"/>
-		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
+		<ObservationZone radius="2000" type="Cylinder"/>
 	</Point>
 	<Point type="Finish">
 		<Waypoint altitude="60" comment="Airfeld" id="214" name="214Pociunai">
