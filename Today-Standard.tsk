@@ -6,8 +6,8 @@
 		<ObservationZone length="10000" type="Line"/>
 	</Point>
 	<Point type="Area">
-		<Waypoint altitude="120" comment="Turn Point" id="145" name="145Lazdijai">
-			<Location latitude="54.2345" longitude="23.5161"/>
+		<Waypoint altitude="160" comment="Turn Point" id="288" name="288Sventezeris">
+			<Location latitude="54.2411" longitude="23.6442"/>
 		</Waypoint>
 		<ObservationZone radius="20000" type="Cylinder"/>
 	</Point>
