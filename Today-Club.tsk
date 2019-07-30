@@ -1,32 +1,39 @@
-<Task fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_requires_arm="1" aat_min_time="7200" type="AAT">
-	<Point type="Start">
-		<Waypoint altitude="50" comment="Turn Point" id="28" name="028Birstonas">
-			<Location latitude="54.6028" longitude="24.0347"/>
-		</Waypoint>
-		<ObservationZone length="10000" type="Line"/>
-	</Point>
-	<Point type="Area">
-		<Waypoint altitude="110" comment="Turn Point" id="165" name="165Merkine">
-			<Location latitude="54.1614" longitude="24.1836"/>
-		</Waypoint>
-		<ObservationZone radius="20000" type="Cylinder"/>
-	</Point>
-	<Point type="Area">
-		<Waypoint altitude="144" comment="Airfeld" id="193" name="193Paluknys">
-			<Location latitude="54.4761" longitude="24.9922"/>
-		</Waypoint>
-		<ObservationZone radius="20000" type="Cylinder"/>
-	</Point>
-	<Point type="Area">
-		<Waypoint altitude="110" comment="Start Point" id="268" name="268Start 3">
-			<Location latitude="54.5995" longitude="24.1742"/>
-		</Waypoint>
-		<ObservationZone radius="2000" type="Cylinder"/>
-	</Point>
-	<Point type="Finish">
-		<Waypoint altitude="60" comment="Airfeld" id="214" name="214Pociunai">
-			<Location latitude="54.6531" longitude="24.0578"/>
-		</Waypoint>
-		<ObservationZone radius="5000" type="Cylinder"/>
-	</Point>
+<Task type="RT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
+  <Point type="Start">
+    <Waypoint name="006SZATYTWR" id="0" comment="" altitude="78.0">
+      <Location longitude="20.0536167" latitude="46.32945"/>
+    </Waypoint>
+    <ObservationZone type="Line" length="20000.0"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="162SZABADSZ" id="0" comment="" altitude="97.0">
+      <Location longitude="19.2236167" latitude="46.8752833"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="500.0"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="148REM" id="0" comment="" altitude="138.0">
+      <Location longitude="19.14445" latitude="46.2458333"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="500.0"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="159SOLTVDKV" id="0" comment="" altitude="111.0">
+      <Location longitude="19.39695" latitude="46.5702833"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="500.0"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="200IRIS" id="0" comment="" altitude="80.0">
+      <Location longitude="20.0602833" latitude="46.3491667"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="500.0"/>
+  </Point>
+  <Point type="Finish">
+    <Waypoint name="000SZEGED" id="0" comment="" altitude="80.0">
+      <Location longitude="20.0913833" latitude="46.2475"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="5000.0"/>
+  </Point>
 </Task>
+

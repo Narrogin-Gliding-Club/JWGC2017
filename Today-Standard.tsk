@@ -1,32 +1,33 @@
-<Task fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_requires_arm="1" aat_min_time="7200" type="AAT">
-	<Point type="Start">
-		<Waypoint altitude="52" comment="Start Point" id="216" name="216Prienai">
-			<Location latitude="54.6353" longitude="23.9517"/>
-		</Waypoint>
-		<ObservationZone length="10000" type="Line"/>
-	</Point>
-	<Point type="Area">
-		<Waypoint altitude="160" comment="Turn Point" id="288" name="288Sventezeris">
-			<Location latitude="54.2411" longitude="23.6442"/>
-		</Waypoint>
-		<ObservationZone radius="20000" type="Cylinder"/>
-	</Point>
-	<Point type="Area">
-		<Waypoint altitude="133" comment="Turn Point" id="297" name="297Tiltai">
-			<Location latitude="54.4122" longitude="24.8086"/>
-		</Waypoint>
-		<ObservationZone radius="20000" type="Cylinder"/>
-	</Point>
-	<Point type="Area">
-		<Waypoint altitude="110" comment="Start Point" id="268" name="268Start 3">
-			<Location latitude="54.5995" longitude="24.1742"/>
-		</Waypoint>
-		<ObservationZone radius="2000" type="Cylinder"/>
-	</Point>
-	<Point type="Finish">
-		<Waypoint altitude="60" comment="Airfeld" id="214" name="214Pociunai">
-			<Location latitude="54.6531" longitude="24.0578"/>
-		</Waypoint>
-		<ObservationZone radius="5000" type="Cylinder"/>
-	</Point>
+<Task type="RT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
+  <Point type="Start">
+    <Waypoint name="002SZEGEDVA" id="0" comment="" altitude="71.0">
+      <Location longitude="20.1286167" latitude="46.2677833"/>
+    </Waypoint>
+    <ObservationZone type="Line" length="20000.0"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="156SIMONTOR" id="0" comment="" altitude="97.0">
+      <Location longitude="18.5491667" latitude="46.7563833"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="500.0"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="036CSONGRAD" id="0" comment="" altitude="79.0">
+      <Location longitude="20.1366667" latitude="46.7041667"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="500.0"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="200IRIS" id="0" comment="" altitude="80.0">
+      <Location longitude="20.0602833" latitude="46.3491667"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="500.0"/>
+  </Point>
+  <Point type="Finish">
+    <Waypoint name="199FINISHP" id="0" comment="" altitude="80.0">
+      <Location longitude="20.0933333" latitude="46.2466667"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="5000.0"/>
+  </Point>
 </Task>
+
