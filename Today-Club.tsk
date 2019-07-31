@@ -1,39 +1,38 @@
-<Task type="RT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
-  <Point type="Start">
-    <Waypoint name="006SZATYTWR" id="0" comment="" altitude="78.0">
-      <Location longitude="20.0536167" latitude="46.32945"/>
-    </Waypoint>
-    <ObservationZone type="Line" length="20000.0"/>
-  </Point>
-  <Point type="Turn">
-    <Waypoint name="162SZABADSZ" id="0" comment="" altitude="97.0">
-      <Location longitude="19.2236167" latitude="46.8752833"/>
-    </Waypoint>
-    <ObservationZone type="Cylinder" radius="500.0"/>
-  </Point>
-  <Point type="Turn">
-    <Waypoint name="148REM" id="0" comment="" altitude="138.0">
-      <Location longitude="19.14445" latitude="46.2458333"/>
-    </Waypoint>
-    <ObservationZone type="Cylinder" radius="500.0"/>
-  </Point>
-  <Point type="Turn">
-    <Waypoint name="159SOLTVDKV" id="0" comment="" altitude="111.0">
-      <Location longitude="19.39695" latitude="46.5702833"/>
-    </Waypoint>
-    <ObservationZone type="Cylinder" radius="500.0"/>
-  </Point>
-  <Point type="Turn">
-    <Waypoint name="200IRIS" id="0" comment="" altitude="80.0">
-      <Location longitude="20.0602833" latitude="46.3491667"/>
-    </Waypoint>
-    <ObservationZone type="Cylinder" radius="500.0"/>
-  </Point>
-  <Point type="Finish">
-    <Waypoint name="000SZEGED" id="0" comment="" altitude="80.0">
-      <Location longitude="20.0913833" latitude="46.2475"/>
-    </Waypoint>
-    <ObservationZone type="Cylinder" radius="5000.0"/>
-  </Point>
+<Task fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_requires_arm="1" aat_min_time="10800" type="AAT">
+	<Point type="Start">
+		<Waypoint altitude="78" comment="Szatymaz TWR" id="8" name="006SZATYTWR">
+			<Location latitude="46.3295" longitude="20.0536"/>
+		</Waypoint>
+		<ObservationZone length="5000" type="Line"/>
+	</Point>
+	<Point type="Area">
+		<Waypoint altitude="82" comment="Csépa: Vasútállomás" id="36" name="034CSEPA">
+			<Location latitude="46.8125" longitude="20.1331"/>
+		</Waypoint>
+		<ObservationZone radius="15000" type="Cylinder"/>
+	</Point>
+	<Point type="Area">
+		<Waypoint altitude="91" comment="Csanádapáca: Templom" id="32" name="030CSANAPC">
+			<Location latitude="46.5431" longitude="20.8881"/>
+		</Waypoint>
+		<ObservationZone radius="30000" type="Cylinder"/>
+	</Point>
+	<Point type="Area">
+		<Waypoint altitude="93" comment="Mezőcsát: Vasútállomás" id="119" name="117MEZOCSAT">
+			<Location latitude="47.8242" longitude="20.9181"/>
+		</Waypoint>
+		<ObservationZone radius="15000" type="Cylinder"/>
+	</Point>
+	<Point type="Area">
+		<Waypoint altitude="80" comment="Szatymaz: Checkpoint" id="202" name="200IRIS">
+			<Location latitude="46.3492" longitude="20.0603"/>
+		</Waypoint>
+		<ObservationZone radius="500" type="Cylinder"/>
+	</Point>
+	<Point type="Finish">
+		<Waypoint altitude="80" comment="Szeged: Célpont" id="201" name="199FINISHP">
+			<Location latitude="46.2467" longitude="20.0933"/>
+		</Waypoint>
+		<ObservationZone radius="5000" type="Cylinder"/>
+	</Point>
 </Task>
-
