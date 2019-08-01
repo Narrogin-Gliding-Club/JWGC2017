@@ -1,29 +1,29 @@
-<Task fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_requires_arm="1" aat_min_time="10800" type="AAT">
+<Task fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_requires_arm="0" aat_min_time="10800" type="RT">
 	<Point type="Start">
-		<Waypoint altitude="80" comment="Kiskundorozsma: Templom" id="5" name="003KKDOROZS">
-			<Location latitude="46.2742" longitude="20.0633"/>
+		<Waypoint altitude="71" comment="Szeged: Vasútállomás" id="4" name="002SZEGEDVA">
+			<Location latitude="46.2678" longitude="20.1286"/>
 		</Waypoint>
-		<ObservationZone length="5000" type="Line"/>
+		<ObservationZone length="10000" type="Line"/>
 	</Point>
-	<Point type="Area">
-		<Waypoint altitude="79" comment="Tiszaug: Híd  keleti hídfő" id="184" name="182TISZAUGH">
-			<Location latitude="46.8672" longitude="20.0472"/>
+	<Point type="Turn">
+		<Waypoint altitude="97" comment="Szabadszállás: Templom" id="164" name="162SZABADSZ">
+			<Location latitude="46.8753" longitude="19.2236"/>
 		</Waypoint>
-		<ObservationZone radius="15000" type="Cylinder"/>
+		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
-	<Point type="Area">
-		<Waypoint altitude="91" comment="Csanádapáca: Templom" id="32" name="030CSANAPC">
-			<Location latitude="46.5431" longitude="20.8881"/>
+	<Point type="Turn">
+		<Waypoint altitude="91" comment="Mórahalom: Templom" id="126" name="124MORAHALM">
+			<Location latitude="46.2167" longitude="19.8911"/>
 		</Waypoint>
-		<ObservationZone radius="30000" type="Cylinder"/>
+		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
-	<Point type="Area">
-		<Waypoint altitude="110" comment="Jakabszállás: Templom (keleti)" id="74" name="072JAKABSZ">
-			<Location latitude="46.7589" longitude="19.6095"/>
+	<Point type="Turn">
+		<Waypoint altitude="138" comment="Borota: Templom" id="28" name="026BOROTA">
+			<Location latitude="46.2642" longitude="19.2256"/>
 		</Waypoint>
-		<ObservationZone end_radial="270" start_radial="180" radius="30000" type="Sector"/>
+		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
-	<Point type="Area">
+	<Point type="Turn">
 		<Waypoint altitude="80" comment="Szatymaz: Checkpoint" id="202" name="200IRIS">
 			<Location latitude="46.3492" longitude="20.0603"/>
 		</Waypoint>

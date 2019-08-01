@@ -1,29 +1,29 @@
-<Task fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_requires_arm="1" aat_min_time="10800" type="AAT">
+<Task fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_requires_arm="0" aat_min_time="10800" type="RT">
 	<Point type="Start">
 		<Waypoint altitude="78" comment="Szatymaz TWR" id="8" name="006SZATYTWR">
 			<Location latitude="46.3295" longitude="20.0536"/>
 		</Waypoint>
-		<ObservationZone length="5000" type="Line"/>
+		<ObservationZone length="10000" type="Line"/>
 	</Point>
-	<Point type="Area">
-		<Waypoint altitude="82" comment="Csépa: Vasútállomás" id="36" name="034CSEPA">
-			<Location latitude="46.8125" longitude="20.1331"/>
+	<Point type="Turn">
+		<Waypoint altitude="100" comment="Izsák: Templom (keleti)" id="73" name="071IZSAK">
+			<Location latitude="46.8006" longitude="19.3639"/>
 		</Waypoint>
-		<ObservationZone radius="15000" type="Cylinder"/>
+		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
-	<Point type="Area">
-		<Waypoint altitude="91" comment="Csanádapáca: Templom" id="32" name="030CSANAPC">
-			<Location latitude="46.5431" longitude="20.8881"/>
+	<Point type="Turn">
+		<Waypoint altitude="91" comment="Mórahalom: Templom" id="126" name="124MORAHALM">
+			<Location latitude="46.2167" longitude="19.8911"/>
 		</Waypoint>
-		<ObservationZone radius="30000" type="Cylinder"/>
+		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
-	<Point type="Area">
-		<Waypoint altitude="93" comment="Mezőcsát: Vasútállomás" id="119" name="117MEZOCSAT">
-			<Location latitude="47.8242" longitude="20.9181"/>
+	<Point type="Turn">
+		<Waypoint altitude="132" comment="Jánoshalma: Vasútállomás" id="78" name="076JHALMA">
+			<Location latitude="46.292" longitude="19.3328"/>
 		</Waypoint>
-		<ObservationZone radius="15000" type="Cylinder"/>
+		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
-	<Point type="Area">
+	<Point type="Turn">
 		<Waypoint altitude="80" comment="Szatymaz: Checkpoint" id="202" name="200IRIS">
 			<Location latitude="46.3492" longitude="20.0603"/>
 		</Waypoint>
